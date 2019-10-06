@@ -40,7 +40,7 @@ public class AuctionService {
 
         Random random = new Random();
 
-        String line = bufferedReader.readLine(); // skip first line
+        String line = bufferedReader.readLine();
         while ((line = bufferedReader.readLine()) != null) {
             String[] data = line.split(",");
             long id = Long.parseLong(data[0]);
